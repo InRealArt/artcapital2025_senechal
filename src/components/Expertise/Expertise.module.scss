@@ -1,0 +1,110 @@
+.container,
+.container * {
+  box-sizing: border-box;
+}
+.container {
+  background: white;
+  border-radius: 2.5rem;
+  border-style: solid;
+  border-color: #6979a7;
+  border-width: 0.0625rem;
+  padding: 5rem 3.75rem 5rem 3.75rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5.375rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  max-width: 100%;
+}
+.expert {
+  border-radius: 50%;
+  border-width: 0.125rem;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border: 1px solid #000000;
+  max-width: 360px;
+  max-height: 360px;
+}
+.containerExpert {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.expertTitleWords {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.expertTitle {
+  color: #000000;
+  text-align: left;
+  font-family: "Aclonica", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: relative;
+  height: 100%;
+}
+
+.expertWords {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.identityExpertContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.identityExpert {
+  color: #000000;
+  text-align: left;
+  font-family: var(--heading-text-paragraphe-font-family, "Montserrat-Regular", sans-serif);
+  font-size: var(--heading-text-paragraphe-font-size, 1rem);
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+  position: relative;
+  flex: 1;
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .expert {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .containerExpert {
+    width: 100%;
+  }
+
+  .expertWords {
+    font-size: 0.9rem;
+  }
+
+  .identityExpert {
+    text-align: center;
+  }
+}

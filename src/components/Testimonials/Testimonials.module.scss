@@ -1,0 +1,312 @@
+.container,
+.container * {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapperText {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 35.5625rem;
+  height: 3rem;
+  position: relative;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  color: black;
+  text-align: center;
+  font-family: "Unbounded", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: -0.03125rem;
+  font-weight: 400;
+  position: relative;
+  width: 34.9375rem;
+}
+.containerTestimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9375rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.containerTestimonial1 {
+  background: #ffffff;
+  border-radius: 2.5rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  border-image: var(
+    --bg-bg-color,
+    linear-gradient(
+      135.65deg,
+      rgba(236, 238, 250, 1) 0%,
+      rgba(234, 236, 251, 1) 52.60416865348816%,
+      rgba(225, 229, 255, 1) 100%
+    )
+  );
+  border-image-slice: 1;
+  padding: 1.875rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4.4375rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-186 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 1.90625rem;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.125rem;
+  flex-shrink: 0;
+  width: 13.5rem;
+  height: 13.5rem;
+  position: relative;
+  object-fit: cover;
+}
+.wrapperText2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.title2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.artist1 {
+  color: var(--primaire-black, #000035);
+  text-align: left;
+  font-family: "Unbounded", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: -0.03125rem;
+  font-weight: 400;
+  position: relative;
+  width: 39.875rem;
+}
+.artistText1 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--heading-text-paragraphe-font-family, "-", sans-serif);
+  font-size: var(--heading-text-paragraphe-font-size, 1rem);
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+  position: relative;
+  flex: 1;
+  width: 45.625rem;
+}
+.artistText11 {
+  color: #000000;
+  font-family: var(--heading-text-paragraphe-font-family, "Montserrat", sans-serif);
+  font-size: var(--heading-text-paragraphe-font-size, 16px);
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+  font-style: var(--heading-text-paragraphe-font-style-italic);
+  margin-bottom: 20px;
+  display: block;
+}
+.artistText12 {
+  color: #000000;
+  font-family: var(--heading-text-paragraphe-font-family, "Montserrat", sans-serif);
+  font-size: var(--heading-text-paragraphe-font-size, 16px);
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+}
+.artistText13 {
+  color: #000000;
+  font-family: var(--heading-text-paragraphe-font-family, "Montserrat", sans-serif);
+  font-size: var(--heading-text-paragraphe-font-size, 16px);
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+}
+.artistText14 {
+  color: #000000;
+  font-family: var(--heading-text-paragraphe-font-family, "Montserrat", sans-serif);
+  font-size: var(--heading-text-paragraphe-font-size, 16px);
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+}
+.containerTestimonial2 {
+  background: #ffffff;
+  border-radius: 2.5rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  border-image: var(
+    --bg-bg-color,
+    linear-gradient(
+      135.65deg,
+      rgba(236, 238, 250, 1) 0%,
+      rgba(234, 236, 251, 1) 52.60416865348816%,
+      rgba(225, 229, 255, 1) 100%
+    )
+  );
+  border-image-slice: 1;
+  padding: 1.875rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4.4375rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-187 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 1.90625rem;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.125rem;
+  flex-shrink: 0;
+  width: 13.5rem;
+  height: 13.5rem;
+  position: relative;
+  object-fit: cover;
+}
+.wrapperText3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.artist2 {
+  color: var(--primaire-black, #000035);
+  text-align: left;
+  font-family: "Unbounded", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: -0.03125rem;
+  font-weight: 400;
+  position: relative;
+  width: 39.875rem;
+}
+.artistText2 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--heading-text-paragraphe-font-family, "-", sans-serif);
+  font-size: var(--heading-text-paragraphe-font-size, 1rem);
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+  position: relative;
+  width: 45.625rem;
+}
+.artistText21 {
+  color: #000000;
+  font-family: var(--heading-text-paragraphe-font-family, "Montserrat", sans-serif);
+  font-size: var(--heading-text-paragraphe-font-size, 16px);
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+  font-style: var(--heading-text-paragraphe-font-style-italic);
+  margin-bottom: 20px;
+  display: block;
+}
+.artistText22 {
+  color: #000000;
+  font-family: var(--heading-text-paragraphe-font-family, "Montserrat", sans-serif);
+  font-size: var(--heading-text-paragraphe-font-size, 16px);
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+}
+.artistText23 {
+  color: #000000;
+  font-family: var(--heading-text-paragraphe-font-family, "Montserrat", sans-serif);
+  font-size: var(--heading-text-paragraphe-font-size, 16px);
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+}
+
+.artistText1 {
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+@media (max-width: 1000px) {
+  .title2,
+  .artist1,
+  .artist2 {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .containerTestimonial1,
+  .containerTestimonial2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .wrapperText2,
+  .wrapperText3 {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .artistText1,
+  .artistText2 {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .artistText1,
+  .artistText2 {
+    font-size: 0.8rem;
+  }
+
+  .artist1,
+  .artist2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .artistText1,
+  .artistText2 {
+    font-size: 0.7rem;
+  }
+
+  .artist1,
+  .artist2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 438px) {
+  .artistText11,
+  .artistText13,
+  .artistText14,
+  .artistText21,
+  .artistText23,
+  .artistText24 {
+    font-size: 14px; // Réduisez cette valeur selon vos besoins
+  }
+}

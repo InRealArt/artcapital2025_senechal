@@ -1,0 +1,91 @@
+.eventInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  width: 100%; 
+}
+
+.eventInfoItem1 {
+  color: #0b142e;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+}
+
+.eventInfoItem2 {
+  color: #0b142e;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.date {
+  margin-bottom: 10px;
+  color: #0b142e;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+}
+
+.downloadButton {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button,
+.button * {
+  box-sizing: border-box;
+}
+.button {
+  background: var(--primaire-white, #f6f8ff);
+  border-radius: 0.625rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  border-image: var(
+    --bg-bg-color,
+    linear-gradient(
+      135.65deg,
+      rgba(236, 238, 250, 1) 0%,
+      rgba(234, 236, 251, 1) 52.60416865348816%,
+      rgba(225, 229, 255, 1) 100%
+    )
+  );
+  border-image-slice: 1;
+  padding: 1rem 2.4375rem 1rem 2.4375rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+.buttonText {
+  color: var(--primaire-black, #000035);
+  text-align: center;
+  font-family: var(
+    --heading-text-link-text-font-family,
+    "Montserrat-Medium",
+    sans-serif
+  );
+  font-size: var(--heading-text-link-text-font-size, 1rem);
+  font-weight: var(--heading-text-link-text-font-weight, 500);
+  position: relative;
+}

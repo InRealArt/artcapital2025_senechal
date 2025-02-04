@@ -1,0 +1,142 @@
+.container {
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.title {
+  color: var(--primaire-black, #000035);
+  text-align: center;
+  font-family: "Unbounded", sans-serif;
+  font-size: 2.5rem; // Légèrement réduit pour plus de réactivité
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  padding-bottom: 30px;
+}
+
+.statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.statItem {
+  flex: 1 1 calc(25% - 15px);
+  background-color: #F5F4F4;
+  min-width: 200px; // Définit une largeur minimale
+  max-width: calc(25% - 15px);
+  border-radius: 1.25rem;
+  border-style: solid;
+  border-color: var(--primaire-black, #000035);
+  border-width: 0.0625rem;
+  padding: 1.5rem; // Légèrement réduit
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; // Espace entre statNumber et statDescription
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%; // Permet une meilleure réactivité
+  max-width: 18.5625rem; // Limite la largeur maximale
+  position: relative;
+}
+
+.statNumber {
+  color: var(--primaire-black, #000035);
+  text-align: left;
+  font-family: "Unbounded", sans-serif;
+  font-size: 2.5rem; 
+  font-weight: 400;
+  position: relative;
+  align-self: flex-start;
+}
+
+.statNumberBig {
+  color: var(--primaire-black, #000035);
+  text-align: left;
+  font-family: "Unbounded", sans-serif;
+  font-size: 3rem; 
+  font-weight: 400;
+  position: relative;
+  align-self: flex-start;
+}
+
+.normalText {
+  color: var(--primaire-black, #000035);
+  font-family: var(--heading-text-paragraphe-font-family);
+  font-size: var(--heading-text-paragraphe-font-size);
+  font-weight: var(--heading-text-paragraphe-font-weight);
+}
+
+.statDescription .boldText {
+  color: #000035;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.statDescription {
+  color: var(--primaire-black, #000035);
+  text-align: center;
+  font-family: var(--heading-text-paragraphe-font-family, "Montserrat", sans-serif);
+  font-size: 0.9rem; // Taille de police réduite
+  font-weight: var(--heading-text-paragraphe-font-weight, 400);
+  position: relative;
+  line-height: 1.4; // Améliore la lisibilité
+}
+
+@media (max-width: 1200px) {
+  .statsContainer {
+    justify-content: space-between; // Répartit l'espace entre les éléments
+  }
+
+  .statItem {
+    flex: 0 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .statItem {
+    flex-basis: 100%;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .statNumber {
+    font-size: 2rem;
+  }
+  
+  .statDescription {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 492px) {
+  .statsContainer {
+    justify-content: center;
+  }
+
+  .statItem {
+    flex-basis: 100%;
+    max-width: 80%; // Augmente la largeur maximale
+    width: 100%; // Assure que l'élément prend toute la largeur disponible
+  }
+  
+  .statNumber {
+    font-size: 2rem; // Augmente la taille de la police pour les petits écrans
+  }
+  
+  .statDescription {
+    font-size: 0.8rem; // Ajuste la taille de la police pour les petits écrans
+  }
+
+  .title {
+    text-align: center; // Centre le titre
+    font-size: 2rem; // Optionnel : réduit légèrement la taille du titre pour les petits écrans
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "artshowparis2025",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.10.3",
+    "@fontsource/aclonica": "^5.1.0",
+    "@fontsource/bricolage-grotesque": "^5.1.0",
+    "@fontsource/inter": "^5.1.0",
+    "@fontsource/montserrat": "^5.1.0",
+    "@fontsource/unbounded": "^5.1.1",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.48.1",
+    "html-react-parser": "^5.1.18",
+    "i18next": "^23.16.0",
+    "lucide-react": "^0.453.0",
+    "next": "14.2.15",
+    "next-i18next": "^15.3.1",
+    "next-intl": "^3.21.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-google-recaptcha-v3": "^1.10.1",
+    "react-i18next": "^15.0.3",
+    "sass": "^1.80.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,48 @@
+.grid {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    
+    // Desktop: 3 colonnes fixes
+    grid-template-columns: repeat(3, 1fr);
+    
+    // Tablette: 2 colonnes
+    @media (max-width: 1107px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    // Mobile: 1 colonne
+    @media (max-width: 756px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .imageWrapper {
+    position: relative;
+    padding-bottom: 60%;
+    overflow: hidden;
+    border-radius: 8px;
+  
+    // Cache les images 5 et 6 en dessous de 1107px
+    @media (max-width: 1107px) {
+      &:nth-child(n + 5) {
+        display: none;
+      }
+    }
+  
+    // Cache toutes les images sauf les 2 premières sur mobile
+    @media (max-width: 756px) {
+      &:nth-child(n + 3) {
+        display: none;
+      }
+    }
+  }
+  
+  .image {
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }

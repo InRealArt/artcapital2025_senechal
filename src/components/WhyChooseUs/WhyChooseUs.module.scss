@@ -1,0 +1,93 @@
+.container {
+  background: #F5F4F4;
+  border-radius: 2.5rem;
+  padding: 5rem 3.75rem 5rem 3.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  }
+  
+  .title {
+    color: black;
+    text-align: left;
+    font-family: "Unbounded", sans-serif; 
+    font-size: 2.5rem;
+    letter-spacing: -0.03125rem;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .subtitle {
+    color: black;
+    text-align: left;
+    font-family: var(
+      --heading-text-paragraphe-font-family,
+      "Montserrat",
+      sans-serif
+    );
+    font-size: var(--heading-text-paragraphe-font-size, 1rem);
+    font-weight: var(--heading-text-paragraphe-font-weight, 400);
+    position: relative;
+  }
+  
+  .cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex-basis: calc(33.333% - 20px);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .cardText {
+    color: #3f3d3d;
+    text-align: left;
+    font-family: var(
+      --heading-text-paragraphe-font-family,
+      "Montserrat",
+      sans-serif
+    );
+    font-size: var(--heading-text-paragraphe-font-size, 1rem);
+    font-weight: var(--heading-text-paragraphe-font-weight, 400);
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .imageContainer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 10%;
+  }
+  
+  .imageContainer img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex-basis: 100%;
+    }
+    .container {
+      padding: 50px 30px;
+    }
+  }

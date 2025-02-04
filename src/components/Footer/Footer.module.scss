@@ -1,0 +1,25 @@
+.footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .socialIcons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .socialIcons a:hover {
+    background-color: #e0e0e0;
+  }

@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  .imageSection {
+    position: relative;
+    max-width: 450px;
+    height: max-content;
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -150px;
+    border-radius: 20px;
+  }
+  
+  .formSection {
+    flex: 1;
+    background-color: #F5F4F4;
+    padding: 40px 40px 40px 200px;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+  .title {
+    color: black;
+    text-align: left;
+    font-family: var(
+      --heading-h1-font-family,
+      "BricolageGrotesque-Regular",
+      sans-serif
+    );
+    font-size: var(--heading-h1-font-size, 4rem);
+    font-weight: var(--heading-h1-font-weight, 400);
+    position: relative;
+  }
+  
+  .subtitle {
+    color: black;
+    text-align: left;
+    font-family: var(--heading-text-paragraphe-font-family, "Montserrat", sans-serif);
+    font-size: var(--heading-text-paragraphe-font-size, 1rem);
+    font-weight: var(--heading-text-paragraphe-font-weight, 400);
+    position: relative;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .inputGroup label {
+    margin-bottom: 5px;
+  }
+  
+  .inputGroup input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .checkboxGroup {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .submitButton {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    }
+  }
+  
+  .formLabel {
+    margin-top: 20px;
+    width: 100%;
+    input {
+      width: 100% !important;
+      max-width: 400px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .container {
+      flex-direction: column;
+    }
+    .title {
+      font-size: 38px;
+    }
+    .formSection {
+      padding: 20px;
+    }
+    .imageSection {
+      right: 0;
+    }
+  }

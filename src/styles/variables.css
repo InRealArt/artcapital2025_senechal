@@ -1,0 +1,71 @@
+:root {
+ /* Colors */
+ --bg-bg-color: linear-gradient(
+    135.65deg,
+    rgba(236, 238, 250, 1) 0%,
+    rgba(234, 236, 251, 1) 52.60416865348816%,
+    rgba(225, 229, 255, 1) 100%
+  );
+  --bleu-bleu-sombre-100: #021056;
+  --bleu-bleu-sombre-200: #2b3058;
+  --bleu-bleu-sombre-000: #000026;
+  --bleu-bleu-sombre-300: #6979a7;
+  --jaune-jaune: #f2c832;
+  --jaune-jaune-claire: #f7da59;
+  --primaire-white: #f6f8ff;
+  --primaire-black: #000035;
+
+  /* Fonts */
+  --heading-h1-font-family: BricolageGrotesque, sans-serif;
+  --heading-h1-font-size: 64px;
+  --heading-h1-line-height: normal;
+  --heading-h1-font-weight: 400;
+  --heading-h1-font-style: normal;
+  --heading-h2-font-family: BricolageGrotesque, sans-serif;
+  --heading-h2-font-size: 48px;
+  --heading-h2-line-height: normal;
+  --heading-h2-font-weight: 400;
+  --heading-h2-font-style: normal;
+  --heading-h3-font-family: BricolageGrotesque, sans-serif;
+  --heading-h3-font-size: 24px;
+  --heading-h3-line-height: normal;
+  --heading-h3-font-weight: 400;
+  --heading-h3-font-style: normal;
+  --heading-h4-font-family: BricolageGrotesque, sans-serif;
+  --heading-h4-font-size: 16px;
+  --heading-h4-line-height: normal;
+  --heading-h4-font-weight: 400;
+  --heading-h4-font-style: normal;
+  --heading-text-paragraphe-font-family: Montserrat, sans-serif;
+  --heading-text-paragraphe-font-size: 16px;
+  --heading-text-paragraphe-line-height: normal;
+  --heading-text-paragraphe-font-weight: 400;
+  --catalogue-stats-bold-text-font-size: 16px;
+  --catalogue-stats-bold-text-line-height: normal;
+  --catalogue-stats-bold-text-font-weight: 900;
+  --heading-text-paragraphe-font-style: normal;
+  --heading-text-paragraphe-font-style-italic: italic;
+  --heading-text-link-text-font-family: Montserrat-Medium, sans-serif;
+  --heading-text-link-text-font-size: 16px;
+  --heading-text-link-text-line-height: normal;
+  --heading-text-link-text-font-weight: 500;
+  --heading-text-link-text-font-style: normal;
+  --text-link-text-font-family: Montserrat-Medium, sans-serif;
+  --text-link-text-font-size: 16px;
+  --text-link-text-line-height: normal;
+  --text-link-text-font-weight: 500;
+  --text-link-text-font-style: normal;
+  --text-paragraphe-font-family: Montserrat, sans-serif;
+  --text-paragraphe-font-size: 16px;
+  --text-paragraphe-line-height: normal;
+  --text-paragraphe-font-weight: 400;
+  --text-paragraphe-font-style: normal;
+  --special-button-font-family: Inter, sans-serif;
+  --special-button-font-size: 12px;
+  --special-button-line-height: normal;
+  --special-button-font-weight: 400;
+  --special-button-font-style: normal;
+
+  /* Effects */
+  --background-blur-backdrop-filter: blur(10px);
+  }
