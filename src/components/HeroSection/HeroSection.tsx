@@ -16,7 +16,13 @@ export default function HeroSection() {
       
       <div className={styles.content}>
         <div className={styles.imageContainer}>
-          
+          <Image
+              src="/img/heroSection/logo_artcapital2025.png"
+              alt="ArtCapital Logo"
+              width={400}
+              height={400}
+              priority
+            />
         </div>
         <div className={styles.title}>
           {i18n[language].hero.title}

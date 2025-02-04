@@ -3,12 +3,12 @@ import styles from './ImageGrid.module.scss';
 
 export default function ImageGrid() {
   const images = [
-    'ma_provence.jpg',
-    'luberon.jpg',
-    'jeudi_noir.jpg',
-    'le_dernier_glacier.jpg',
-    'les_faucheurs_de_la_sorgue.jpg',
-    'les_enfants_de_la_paix.jpg',
+    'senechal1.jpg',
+    'senechal2.jpg',
+    'senechal3.jpg',
+    'senechal4.jpg',
+    'senechal5.jpg',
+    'senechal6.jpg',
   ];
 
   return (

@@ -46,8 +46,8 @@
 }
 
 .title {
-  flex: 1;
-  font-size: 1.5rem;
+  flex: 0.7;
+  font-size: 1.3rem;
   text-align: center; // Centre le texte horizontalement
   display: flex; // Utilise flexbox pour le centrage vertical
   align-items: center; // Centre verticalement le contenu
@@ -55,11 +55,10 @@
   color: #ffffff;
   text-align: center;
   font-family: "Unbounded-Bold", sans-serif;
-  font-size: 2.25rem;
   letter-spacing: -0.03125rem;
-  font-weight: 700;
+  font-weight: 600;
   position: relative;
-  //height: 14.625rem;
+  height: 10rem;
   background-color: rgba(0, 0, 53, 0.9); // fond noir semi-transparent
   padding: 1rem;
   border-radius: 8px;
@@ -85,7 +84,7 @@
 
 @media (max-width: 1000px) {
   .title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
