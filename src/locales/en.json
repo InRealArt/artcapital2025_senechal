@@ -74,9 +74,14 @@
     },
     "testimonials": {
       "title": "Testimonials",
-      "artist1": "“With InRealArt, I can take the Dream to the pinnacle of its art and pass on my heritage in a timeless way through these canvases. It's a unique opportunity to merge tradition and innovation, offering a new dimension to my work.“",
+      "artistName1": "Nadine Le Prince",
+      "artistName2": "Leloluce",
+      "artist1": "“InRealArt allows me to take the art of trompe-l'oeil to its highest level, immortalizing my vision through these creations. It's a unique opportunity to combine classical mastery and contemporary technology to offer a striking artistic experience.“",
       "artist2": "“Thanks to InRealArt, I can take my artistic vision and pop art to new horizons and share my innovative work with the whole world. It's a privilege to be part of this revolution, where each work transcends time and finds its place in the future of art.“",
-      "ranking": "contemporary style Classification"
+      "styleArtist1": "Class. Style figuratif",
+      "styleArtist2": "Class. Style contemporain",
+      "rankingArtist1": "TOP 3 I-CAC",
+      "rankingArtist2": "TOP 7 I-CAC"
     },
     "partners": {
       "title": "They trust us"

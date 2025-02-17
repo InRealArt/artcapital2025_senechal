@@ -74,9 +74,14 @@
     },
     "testimonials": {
       "title": "Témoignages",
-      "artist1": "“Avec InRealArt, je peux porter le Rêve au sommet de son art et transmettre mon héritage de manière intemporelle à travers ces toiles. C'est une opportunité unique de fusionner tradition et innovation, offrant une nouvelle dimension à mon travail.”", 
+      "artistName1": "Nadine Le Prince",
+      "artistName2": "Leloluce",
+      "artist1": "“InRealArt me permet de porter l'art du trompe-l'œil à son plus haut niveau, en immortalisant ma vision à travers ces créations. C’est une opportunité unique de combiner maîtrise classique et technologie contemporaine pour offrir une expérience artistique marquante.”", 
       "artist2": "“Grâce à InRealArt, je peux propulser ma vision artistique et le pop-art vers de nouveaux horizons et partager mon travail innovant avec le monde entier. C’est un privilège d’intégrer cette révolution, où chaque œuvre transcende le temps et trouve sa place dans l’avenir de l’art.“",
-      "ranking": "Class. Style contemporain"
+      "styleArtist1": "Class. Style figuratif",
+      "styleArtist2": "Class. Style contemporain",
+      "rankingArtist1": "TOP 3 I-CAC",
+      "rankingArtist2": "TOP 7 I-CAC"
     },
     "partners": {
       "title": "Ils nous font confiance"
