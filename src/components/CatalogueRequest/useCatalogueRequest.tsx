@@ -19,9 +19,9 @@ const useCatalogueRequest = () => {
     const [phone, setPhone]   = useState<string>('');
     const [captchaValid, setCaptchaValid]   = useState<boolean>(false);
 
-    //------------------------------------------------------------------------------ insertDataArtshowParis2025
-    const insertDataArtshowParis2025 = async (table: string, email: string, name: string, phone: string) => {
-      console.log("insertDataArtshowParis2025 ----")
+    //------------------------------------------------------------------------------ insertDataArtCapitalParis2025
+    const insertDataArtCapitalParis2025 = async (table: string, email: string, name: string, phone: string) => {
+      console.log("insertDataArtCapitalParis2025 ----")
       console.log('email : ', email)
       console.log('name : ', name)
       console.log('phone : ', phone)
@@ -62,7 +62,7 @@ const useCatalogueRequest = () => {
       if (captchaValid) {
         console.log('Le captcha est OK. On peut insérer les data')
         const insertData = async () => {
-          await insertDataArtshowParis2025(EMAIL_TABLE, email, name, phone)
+          await insertDataArtCapitalParis2025(EMAIL_TABLE, email, name, phone)
         }
         insertData()
       }
