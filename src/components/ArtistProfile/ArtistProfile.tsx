@@ -12,20 +12,21 @@ export default function ArtistProfile() {
       <div className={`${styles.content} ${styles.contentBackground}`}>
 
         <div className={styles.text}>
-        <div className={styles.artistName}>{parse(i18n[language].artist.title)}</div>
+          <div className={styles.artistName}>{parse(i18n[language].artist.title)}</div>
+          <div>{parse(i18n[language].artist.text1)}</div>
           <div>{parse(i18n[language].artist.text2)}</div>
         </div>
         <div className={styles.images}>
           <div className={styles.artistArtwork}>
-            <Image src="/img/artistProfile/c_senechal.jpg" 
-              alt="Œuvre emblématique de Catherine Sénéchal - Art contemporain"  
+            <Image src="/img/artistProfile/c_senechal_artwork.jpg" 
+              alt="Œuvre emblématique de Catherine Senechal"  
               width={400} height={4500} style={{ objectFit: 'cover' }} />
           </div>
-          {/* <div className={styles.artistPhoto}>
+          <div className={styles.artistPhoto}>
             <Image src="/img/artistProfile/c_senechal.jpg" 
-              alt="Monique Laville - Artiste cotée - Expositions internationales - Représentée par InRealArt"  
+              alt="Catherine Sénéchal - Artiste cotée - Expositions internationales - Représentée par InRealArt"  
               width={200} height={200} layout="responsive" />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
